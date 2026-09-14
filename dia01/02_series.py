@@ -1,4 +1,7 @@
 # %%
+import pandas as pd
+
+# %%
 
 idades = [
     32, 38, 30, 30, 31,
@@ -9,11 +12,9 @@ idades = [
 media  = sum(idades) / len(idades)
 media
 
-# %%
-import pandas as pd
-
 series_idades = pd.Series(idades)
 series_idades
+
 
 # %%
 # Estatísticas das series
